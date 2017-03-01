@@ -1,0 +1,58 @@
+{
+  "name": "pinup-app-backend",
+  "version": "0.0.1",
+  "description": "Pinup App backend functionality",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "stop": "pkill --signal SIGINT pinup-app-backend",
+    "test": "eslint ."
+  },
+  "engine": {
+    "node": "0.10.x",
+    "npm": "2.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilip-bridgelabz/pinup-app-backend_v1.git"
+  },
+  "author": {
+    "name": "Dilip More",
+    "email": "dilip.more@bridgelabz.com"
+  },
+  "contributors": [
+    {
+      "name": "Hamid",
+      "email": "hamid@bridgelabz.com"
+    }
+  ],
+  "keywords": [
+    "Pinup"
+  ],
+  "bugs": {
+    "url": "https://github.com/dilip-bridgelabz/pinup-app-backend_v1/issues"
+  },
+  "homepage": "https://github.com/dilip-bridgelabz/pinup-app-backend_v1",
+  "dependencies": {
+    "archiver": "^1.3.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "crypto": "0.0.3",
+    "dns": "^0.2.2",
+    "ejs": "^2.5.1",
+    "express-session": "^1.14.0",
+    "jwt-simple": "^0.5.1",
+    "oauth2orize": "^1.4.0",
+    "passport": "^0.3.2",
+    "passport-http": "0.3.0",
+    "passport-http-bearer": "1.0.1",
+    "passport-http-jwt-bearer": "^0.1.3",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "1.0.0",
+    "passport.socketio": "3.6.2",
+    "swagger-node-express": "^2.1.3",
+    "util": "^0.10.3"
+  }
+}
